@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#overlay {
+    background: #000;
+    height: 100px;
+    color: rgb(85, 85, 85);
+    padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* html, body, .main {
+	height:100%!important;
+} */
+
+/* Main styling */
+
+/* .main {
+	background-image: url("./img/camNcoff.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px;
+	width: 100%;
+} */
+/* blockquote {
+	width: 100%;
+}
+.aboutme img {
+	width: 100%;
+	height: 17rem;
+	display: inline-block;
+
+} */
+
+/* end Main styling */
+
+
+
+/* Modal typewriter styling */
+
+.cursor {
+	display: inline-block;
+	position: relative;
+	font-size: 75px;
+	
+	}
+	.cursor::after {
+	content: "";
+	margin: auto;
+	position: absolute;
+	right: -4px;
+	top: -3px;
+	width: 1px;
+	height: 100%;
+	background-color: rgb(153, 153, 153);
+	animation: cursor-animation 1.5s step-end infinite;
+	}
+	@keyframes cursor-animation {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* end typewriter */
+
+.name {
+	font-size: 100px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Modal close button */
+		
+		.outer {
+			position: relative;
+			margin: auto;
+			width: 70px;
+			margin-top: 200px;
+			cursor: pointer;
+		}
+		
+		.inner {
+			width: inherit;
+			text-align: center;
+		}
+		
+		label { 
+			font-size: .8em; 
+			line-height: 4em;
+			text-transform: uppercase;
+			color: rgb(85, 85, 85);
+			transition: all .3s ease-in;
+			opacity: 0;
+			cursor: pointer;
+		}
+		
+		.inner:before, .inner:after {
+			position: absolute;
+			content: '';
+			height: 1px;
+			width: inherit;
+			background: rgb(85, 85, 85);
+			left: 0;
+			transition: all .3s ease-in;
+		}
+		
+		.inner:before {
+			top: 50%; 
+			transform: rotate(45deg);  
+		}
+		
+		.inner:after {  
+			bottom: 50%;
+			transform: rotate(-45deg);  
+		}
+		
+		.outer:hover label {
+			opacity: 1;
+		}
+		
+		.outer:hover .inner:before,
+		.outer:hover .inner:after {
+			transform: rotate(0);
+		}
+		
+		.outer:hover .inner:before {
+			top: 0;
+		}
+		
+		.outer:hover .inner:after {
+			bottom: 0;
+		}
