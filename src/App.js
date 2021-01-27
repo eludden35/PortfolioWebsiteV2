@@ -11,7 +11,7 @@ function App() {
 
 	return (
 		<div className="main">
-			<NavBar />
+			{/* <NavBar /> */}
 			<Landing
 				modalVisible={modalVisible}
 				setModalVisible={setModalVisible}
@@ -29,7 +29,7 @@ function App() {
 							<div className="col-lg-12 aboutme">
 								<div className="row">
 									<div className="col-lg-4">
-										<img src={pic} />
+										<img src={pic} alt="Elonzo" />
 									</div>
 									<div className="col-lg-8">
 										<p>
