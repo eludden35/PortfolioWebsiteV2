@@ -12,7 +12,7 @@ const Fullpage = () => (
 	<ReactFullpage
 		pluginWrapper={pluginWrapper}
 		scrollingSpeed={1000}
-		cardsKey={process.env.REACT_APP_LICENSE}
+		cardsKey="ZWxvbnpvLnRlY2hfTWY5WTJGeVpITT1sRTk="
 		cards={true}
 		render={({ state, fullpageApi }) => {
 			return (
