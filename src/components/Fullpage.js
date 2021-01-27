@@ -11,9 +11,9 @@ const pluginWrapper = () => {
 const Fullpage = () => (
 	<ReactFullpage
 		pluginWrapper={pluginWrapper}
-		licenseKey="0F83232F-C8D54B26-B259E89E-89C7E8D3"
+		licenseKey={'0F83232F-C8D54B26-B259E89E-89C7E8D3'}
 		scrollingSpeed={1000}
-		cardsKey="ZWxvbnpvLnRlY2hfTWY5WTJGeVpITT1sRTk="
+		cardsKey={'ZWxvbnpvLnRlY2hfTWY5WTJGeVpITT1sRTk='}
 		cards={true}
 		render={({ state, fullpageApi }) => {
 			return (
