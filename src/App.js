@@ -21,7 +21,7 @@ function App() {
 				html={[
 					<>
 						<div className="col-12 text-center">
-							<h3 className="heading">About POOP</h3>
+							<h3 className="heading">About Me</h3>
 							<div className="heading-underline"></div>
 						</div>
 
