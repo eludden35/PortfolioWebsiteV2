@@ -43,13 +43,13 @@ const Landing = props => {
 						</div>
 					</div>
 					<div className="row">
-						<div className="col">
+						<div className="col start">
 							<div className="outer">
 								<div className="inner">
 									<label
 										onClick={() => setModalVisible(false)}
 									>
-										EXIT
+										Start
 									</label>
 								</div>
 							</div>

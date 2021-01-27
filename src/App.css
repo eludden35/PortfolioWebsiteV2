@@ -1,39 +1,59 @@
-* {
+/* * {
 	padding: 0;
 	margin: 0;
 	/* box-sizing: border-box; */
-}
-
-#overlay {
+*/ #overlay {
 	background: #000;
 	height: 100px;
 	color: rgb(85, 85, 85);
 	padding: 20px;
 }
 
-body,
+/* body,
 html,
 .main,
 #root {
 	height: 100vh;
 	overflow: hidden;
+} */
+
+body {
+	font-family: arial;
+	background-image: url('./img/laptopChill.jpg');
+	background-size: cover;
+	background-position: center 80%;
+}
+.custom-section {
+	text-align: center;
+	font-size: 4em;
+	color: #fff;
 }
 
-.navbar-brand img {
-	width: 30px;
-	height: 30px;
-	align-items: left;
+.actions {
+	list-style-type: none;
 }
+.actions button {
+	padding: 0.93em 1.87em;
+	background: #35495e;
+	border-radius: 5px;
+	border: 0;
+	color: #fff;
+	margin: 7px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.actions button:hover {
+	background: #fff;
+	color: #35495e;
+}
+
+/* #section1 .fp-bg {
+	background-image: url('./img/laptopChill.jpg');
+	background-size: cover;
+	background-position: center 80%;
+} */
 
 /* Main styling */
-
-.main {
-	padding: 20px;
-	background-image: url('./img/laptopChill.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 
 blockquote {
 	width: 100%;
@@ -48,9 +68,6 @@ blockquote {
 
 .col-lg-4 {
 	text-align: center;
-}
-
-.aboutme-hr {
 }
 
 .jumbotron h3 {
@@ -70,7 +87,6 @@ blockquote {
 	.aboutme img {
 		width: 75%;
 		height: 100%;
-		margin-left: 25px;
 	}
 	.jumbotron {
 		max-height: 100vh !important;
@@ -78,8 +94,11 @@ blockquote {
 		padding-top: 0 !important;
 	}
 
+	.start {
+	}
+
 	p {
-		font-size: medium !important;
+		font-size: 80% !important;
 		margin-bottom: 0;
 		margin-top: 0 !important;
 	}
@@ -95,6 +114,7 @@ p {
 	display: inline-block;
 	position: relative;
 	font-size: 75px;
+	color: white;
 }
 .cursor::after {
 	content: '';
@@ -104,7 +124,7 @@ p {
 	top: -3px;
 	width: 1px;
 	height: 100%;
-	background-color: rgb(153, 153, 153);
+	background-color: rgb(255, 255, 255);
 	animation: cursor-animation 1.5s step-end infinite;
 }
 @keyframes cursor-animation {
@@ -123,6 +143,7 @@ p {
 
 .name {
 	font-size: 100px;
+	color: white;
 }
 
 /* Modal close button */
@@ -131,7 +152,7 @@ p {
 	position: relative;
 	margin: auto;
 	width: 70px;
-	margin-top: 200px;
+	margin-top: 50px;
 	cursor: pointer;
 }
 
@@ -144,10 +165,14 @@ label {
 	font-size: 0.8em;
 	line-height: 4em;
 	text-transform: uppercase;
-	color: rgb(85, 85, 85);
+	color: rgb(175, 175, 175);
 	transition: all 0.3s ease-in;
 	opacity: 0;
 	cursor: pointer;
+}
+
+label:hover {
+	color: green;
 }
 
 .inner:before,
