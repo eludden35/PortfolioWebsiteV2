@@ -16,8 +16,9 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-scroll-section": "^3.0.2",
     "react-typewriter-hook": "^1.0.1",
-    "styled-components": "4.3.2",
+    "styled-components": "^4.3.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
