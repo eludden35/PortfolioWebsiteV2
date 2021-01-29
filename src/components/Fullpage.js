@@ -204,9 +204,112 @@ const Fullpage = () => (
 							</div>
 							<div class="slide" id="slide2-2">
 								<div class="fp-bg"></div>
-								<div class="fp-content">
-									<Card html={[]} />
-								</div>
+								<div class="fp-content"></div>
+							</div>
+						</div>
+						<div class="section" id="section3">
+							<div class="fp-bg"></div>
+							<div class="fp-content">
+								<Card
+									html={[
+										<>
+											<div class="narrow">
+												<div class="col-12 text-center">
+													<h3 class="heading">
+														My Projects
+													</h3>
+													<div class="heading-underline"></div>
+												</div>
+
+												<div class="row text-center">
+													<div class="col-md-6">
+														<div class="feature">
+															<h3 class="heading1">
+																Trip Buddy
+															</h3>
+															<p>
+																Trip planning
+																website
+															</p>
+															<i class="fab fa-html5 fa-3x"></i>
+															<i class="fab fa-css3 fa-3x"></i>
+															<i class="fab fa-python fa-3x"></i>
+															<img src="https://img.icons8.com/color/96/000000/django.png" />
+															<br />
+															<a
+																class="btn btn-light btn-md"
+																href="http://3.129.42.159/"
+															>
+																Go To Project
+															</a>
+														</div>
+													</div>
+
+													<div class="col-md-6">
+														<div class="feature">
+															<h3 class="heading1">
+																eCommerce
+															</h3>
+															<p>
+																Full stack
+																eCommerce
+																website
+															</p>
+															<i class="fab fa-html5 fa-3x"></i>
+															<i class="fab fa-css3 fa-3x"></i>
+															<i class="fab fa-python fa-3x"></i>
+															<img src="https://img.icons8.com/color/96/000000/django.png" />
+															<br />
+															<a
+																class="btn btn-light btn-md"
+																href="#"
+																target="_blank"
+															>
+																Coming Soon...
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</>
+									]}
+								/>
+							</div>
+						</div>
+						<div class="section" id="section4">
+							<div class="fp-bg"></div>
+							<div class="fp-content">
+								<Card
+									html={[
+										<>
+											<div id="contact" class="offset">
+												<div class="row justify-content-center">
+													<div class="col-md-5 text-center">
+														<h3>Contact Info</h3>
+														<div class="heading-underline"></div>
+														<p>
+															(626) 590-0773
+															<br />
+															elonzo.ludden@gmail.com
+														</p>
+														<a
+															href="https://www.github.com/eludden35"
+															target="_blank"
+														>
+															<i class="fab fa-github-square fa-3x"></i>
+														</a>
+														<a
+															href="https://www.linkedin.com/in/elonzo-ludden/"
+															target="_blank"
+														>
+															<i class="fab fa-linkedin fa-3x"></i>
+														</a>
+													</div>
+												</div>
+											</div>
+										</>
+									]}
+								/>
 							</div>
 						</div>
 					</div>
