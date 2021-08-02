@@ -120,10 +120,97 @@ const Fullpage = () => (
 										html={[
 											<>
 												<div class="row dark text-center">
-													<div class="col-12 text-center">
-														<h2 class="heading">
+													{/* <div class="col-12 text-center">
+														<h1 class="heading">
 															Skills
-														</h2>
+														</h1>
+														<div class="heading-underline"></div>
+													</div> */}
+
+													<div class="col-md">
+														<h3>
+															Programming Languages
+														</h3>
+														<div class="feature">
+															<i class="fas fa-code fa-3x"></i>
+														</div>
+														<p class="lead">
+															HTML, CSS, JavaScript, Typescript, Python, Java
+														</p>
+													</div>
+
+													{/* <div class="col-md-4">
+														<h3>Frameworks</h3>
+														<div class="feature">
+															<i class="fas fa-th-large fa-3x"></i>
+														</div>
+														<p class="lead">
+															Django, ASP.NET,
+															Node.js, Express,
+															MongoDB, Bootstrap,
+															Entity
+														</p>
+													</div>
+
+													<div class="col-md-4">
+														<h3>Databases</h3>
+														<div class="feature">
+															<i class="fas fa-database fa-3x"></i>
+														</div>
+														<p class="lead">
+															MySQL, MongoDB,
+															Django ORM
+														</p>
+													</div>
+
+													<div class="col-md-6">
+														<h3>Version Control</h3>
+														<div class="feature">
+															<i class="fas fa-code-branch fa-3x"></i>
+														</div>
+														<p class="lead">Git</p>
+													</div>
+
+													<div class="col-md-6">
+														<h3>Methodologies</h3>
+														<div class="feature">
+															<i class="fas fa-sitemap fa-3x"></i>
+														</div>
+														<p class="lead">
+															MVC, OPP, AJAX,
+															API's, TTD
+														</p>
+													</div>
+													<p>
+														<strong>
+															Version Control:
+														</strong>{' '}
+														Git
+													</p>
+													<p>
+														<strong>
+															Methodologies:
+														</strong>{' '}
+														MVC, OPP, AJAX, API's,
+														TTD
+													</p> */}
+												</div>
+											</>
+										]}
+									/>
+								</div>
+							</div>
+							<div class="slide" id="slide2-2">
+								<div class="fp-bg"></div>
+								<div class="fp-content">
+								<Card
+										html={[
+											<>
+												<div class="row dark text-center">
+													<div class="col-12 text-center">
+														<h1 class="heading">
+															Skills
+														</h1>
 														<div class="heading-underline"></div>
 													</div>
 
@@ -202,10 +289,6 @@ const Fullpage = () => (
 									/>
 								</div>
 							</div>
-							<div class="slide" id="slide2-2">
-								<div class="fp-bg"></div>
-								<div class="fp-content"></div>
-							</div>
 						</div>
 						<div class="section" id="section3">
 							<div class="fp-bg"></div>
@@ -234,7 +317,7 @@ const Fullpage = () => (
 															<i class="fab fa-html5 fa-3x"></i>
 															<i class="fab fa-css3 fa-3x"></i>
 															<i class="fab fa-python fa-3x"></i>
-															<img src="https://img.icons8.com/color/96/000000/django.png" />
+															<img src="../../" alt="django logo"/>
 															<br />
 															<a
 																class="btn btn-light btn-md"
@@ -258,12 +341,13 @@ const Fullpage = () => (
 															<i class="fab fa-html5 fa-3x"></i>
 															<i class="fab fa-css3 fa-3x"></i>
 															<i class="fab fa-python fa-3x"></i>
-															<img src="https://img.icons8.com/color/96/000000/django.png" />
+															<img src="../img/django.png" alt="django logo"/>
 															<br />
 															<a
 																class="btn btn-light btn-md"
-																href="#"
+																href="/"
 																target="_blank"
+																rel="noreferrer"
 															>
 																Coming Soon...
 															</a>
@@ -295,12 +379,14 @@ const Fullpage = () => (
 														<a
 															href="https://www.github.com/eludden35"
 															target="_blank"
+															rel="noreferrer"
 														>
 															<i class="fab fa-github-square fa-3x"></i>
 														</a>
 														<a
 															href="https://www.linkedin.com/in/elonzo-ludden/"
 															target="_blank"
+															rel="noreferrer"
 														>
 															<i class="fab fa-linkedin fa-3x"></i>
 														</a>
