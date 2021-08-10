@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import pic from '../img/circle-cropped.png';
+import kwuan from '../assets/kwuan.gif';
 import ReactFullpage from '@fullpage/react-fullpage';
 
 // NOTE: if using fullpage extensions/plugins put them here and pass it as props
@@ -207,28 +208,8 @@ const Fullpage = () => (
 										html={[
 											<>
 												<div class="row dark text-center">
-													<div class="col-12 text-center">
-														<h1 class="heading">
-															Skills
-														</h1>
-														<div class="heading-underline"></div>
-													</div>
 
-													<div class="col-md-4">
-														<h3>
-															Computer Languages
-														</h3>
-														<div class="feature">
-															<i class="fas fa-code fa-3x"></i>
-														</div>
-														<p class="lead">
-															HTML 5, CSS 3,
-															JavaScript, Python,
-															React
-														</p>
-													</div>
-
-													<div class="col-md-4">
+													{/* <div class="col-md-4">
 														<h3>Frameworks</h3>
 														<div class="feature">
 															<i class="fas fa-th-large fa-3x"></i>
@@ -282,7 +263,7 @@ const Fullpage = () => (
 														</strong>{' '}
 														MVC, OPP, AJAX, API's,
 														TTD
-													</p>
+													</p> */}
 												</div>
 											</>
 										]}
@@ -307,28 +288,21 @@ const Fullpage = () => (
 												<div class="row text-center">
 													<div class="col-md-6">
 														<div class="feature">
-															<h3 class="heading1">
-																Trip Buddy
-															</h3>
-															<p>
-																Trip planning
-																website
-															</p>
-															<i class="fab fa-html5 fa-3x"></i>
-															<i class="fab fa-css3 fa-3x"></i>
-															<i class="fab fa-python fa-3x"></i>
-															<img src="../../" alt="django logo"/>
+															<h2 class="heading1">
+																Artist Portfolio Website
+															</h2>
+															<img src={kwuan} alt="kwuan website gif"/>
 															<br />
 															<a
 																class="btn btn-light btn-md"
-																href="http://3.129.42.159/"
+																href="https://www.kwuanburks.com"
 															>
 																Go To Project
 															</a>
 														</div>
 													</div>
 
-													<div class="col-md-6">
+													{/* <div class="col-md-6">
 														<div class="feature">
 															<h3 class="heading1">
 																eCommerce
@@ -341,7 +315,7 @@ const Fullpage = () => (
 															<i class="fab fa-html5 fa-3x"></i>
 															<i class="fab fa-css3 fa-3x"></i>
 															<i class="fab fa-python fa-3x"></i>
-															<img src="../img/django.png" alt="django logo"/>
+															<img src={djangoImg} alt="django logo"/>
 															<br />
 															<a
 																class="btn btn-light btn-md"
@@ -352,7 +326,7 @@ const Fullpage = () => (
 																Coming Soon...
 															</a>
 														</div>
-													</div>
+													</div> */}
 												</div>
 											</div>
 										</>

@@ -3,10 +3,10 @@
 	margin: 0;
 	/* box-sizing: border-box; */
 */ #overlay {
-	background: #000;
-	height: 100px;
-	color: rgb(85, 85, 85);
-	padding: 20px;
+    background: #000;
+    height: 100px;
+    color: rgb(85, 85, 85);
+    padding: 20px;
 }
 
 /* body,
@@ -18,33 +18,33 @@ html,
 } */
 
 body {
-	font-family: arial;
-	background-image: url('./img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg');
-	background-size: cover;
-	background-position: center 60%;
+    font-family: arial;
+    background-image: url("./img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg");
+    background-size: cover;
+    background-position: center 60%;
 }
 .custom-section {
-	text-align: center;
-	font-size: 4em;
-	color: #fff;
+    text-align: center;
+    font-size: 4em;
+    color: #fff;
 }
 
 .actions {
-	list-style-type: none;
+    list-style-type: none;
 }
 .actions button {
-	padding: 0.93em 1.87em;
-	background: #35495e;
-	border-radius: 5px;
-	border: 0;
-	color: #fff;
-	margin: 7px;
-	font-size: 15px;
-	cursor: pointer;
+    padding: 0.93em 1.87em;
+    background: #35495e;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    margin: 7px;
+    font-size: 15px;
+    cursor: pointer;
 }
 .actions button:hover {
-	background: #fff;
-	color: #35495e;
+    background: #fff;
+    color: #35495e;
 }
 
 /* #section1 .fp-bg {
@@ -56,159 +56,164 @@ body {
 /* Main styling */
 
 blockquote {
-	width: 100%;
+    width: 100%;
 }
 
 .aboutme img {
-	object-fit: contain;
-	width: 100%;
-	height: 100%;
-	display: inline-block;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
 }
 
 .col-lg-4 {
-	text-align: center;
+    text-align: center;
 }
 
 .jumbotron h3 {
-	font-size: 50px !important;
+    font-size: 50px !important;
 }
 .jumbotron {
-	max-height: 80% !important;
-	background-color: rgba(238, 238, 238, 0.6) !important;
-	box-shadow: 0px 0px 20px 0px #888888;
+    max-height: 80% !important;
+    background-color: rgba(238, 238, 238, 0.6) !important;
+    box-shadow: 0px 0px 20px 0px #888888;
 }
 
-@media (min-width: 576px) {
-	padding: 2rem 2rem;
+/* @media (min-width: 576px) {
+    padding: 2rem 2rem;
+} */
+
+#section3 img {
+    width: 400px;
+    margin-bottom: 15px;
 }
 
 @media (max-width: 990px) {
-	.aboutme img {
-		width: 75%;
-		height: 100%;
-	}
-	.jumbotron {
-		max-height: 100vh !important;
-		padding-bottom: 0 !important;
-		padding-top: 0 !important;
-	}
+    .aboutme img {
+        width: 75%;
+        height: 100%;
+    }
+    .jumbotron {
+        max-height: 100vh !important;
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+    }
 
-	.start {
-	}
+    .start {
+    }
 
-	p {
-		font-size: 80% !important;
-		margin-bottom: 0;
-		margin-top: 0 !important;
-	}
+    p {
+        font-size: 80% !important;
+        margin-bottom: 0;
+        margin-top: 0 !important;
+    }
 }
 
 p {
-	overflow-wrap: break-word;
-	font-size: 20px;
-	margin-top: 26px !important;
+    overflow-wrap: break-word;
+    font-size: 20px;
+    margin-top: 26px !important;
 }
 
 .cursor {
-	display: inline-block;
-	position: relative;
-	font-size: 75px;
-	color: white;
+    display: inline-block;
+    position: relative;
+    font-size: 75px;
+    color: white;
 }
 .cursor::after {
-	content: '';
-	margin: auto;
-	position: absolute;
-	right: -4px;
-	top: -3px;
-	width: 1px;
-	height: 100%;
-	background-color: rgb(255, 255, 255);
-	animation: cursor-animation 1.5s step-end infinite;
+    content: "";
+    margin: auto;
+    position: absolute;
+    right: -4px;
+    top: -3px;
+    width: 1px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    animation: cursor-animation 1.5s step-end infinite;
 }
 @keyframes cursor-animation {
-	0% {
-		opacity: 0;
-	}
-	50% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0;
-	}
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 /* end typewriter */
 
 .name {
-	font-size: 100px;
-	color: white;
+    font-size: 100px;
+    color: white;
 }
 
 /* Modal close button */
 
 .outer {
-	position: relative;
-	margin: auto;
-	width: 70px;
-	margin-top: 50px;
-	cursor: pointer;
+    position: relative;
+    margin: auto;
+    width: 70px;
+    margin-top: 50px;
+    cursor: pointer;
 }
 
 .inner {
-	width: inherit;
-	text-align: center;
+    width: inherit;
+    text-align: center;
 }
 
 label {
-	font-size: 0.8em;
-	line-height: 4em;
-	text-transform: uppercase;
-	color: rgb(175, 175, 175);
-	transition: all 0.3s ease-in;
-	opacity: 0;
-	cursor: pointer;
+    font-size: 0.8em;
+    line-height: 4em;
+    text-transform: uppercase;
+    color: rgb(175, 175, 175);
+    transition: all 0.3s ease-in;
+    opacity: 0;
+    cursor: pointer;
 }
 
 label:hover {
-	color: green;
+    color: green;
 }
 
 .inner:before,
 .inner:after {
-	position: absolute;
-	content: '';
-	height: 1px;
-	width: inherit;
-	background: rgb(85, 85, 85);
-	left: 0;
-	transition: all 0.3s ease-in;
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: inherit;
+    background: rgb(85, 85, 85);
+    left: 0;
+    transition: all 0.3s ease-in;
 }
 
 .inner:before {
-	top: 50%;
-	transform: rotate(45deg);
+    top: 50%;
+    transform: rotate(45deg);
 }
 
 .inner:after {
-	bottom: 50%;
-	transform: rotate(-45deg);
+    bottom: 50%;
+    transform: rotate(-45deg);
 }
 
 .outer:hover label {
-	opacity: 1;
+    opacity: 1;
 }
 
 .outer:hover .inner:before,
 .outer:hover .inner:after {
-	transform: rotate(0);
+    transform: rotate(0);
 }
 
 .outer:hover .inner:before {
-	top: 0;
+    top: 0;
 }
 
 .outer:hover .inner:after {
-	bottom: 0;
+    bottom: 0;
 }
