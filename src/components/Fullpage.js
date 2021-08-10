@@ -2,6 +2,7 @@ import React from 'react';
 import Card from './Card';
 import pic from '../img/circle-cropped.png';
 import kwuan from '../assets/kwuan.gif';
+import squad from '../assets/esquadup.gif'
 import ReactFullpage from '@fullpage/react-fullpage';
 
 // NOTE: if using fullpage extensions/plugins put them here and pass it as props
@@ -296,6 +297,22 @@ const Fullpage = () => (
 															<a
 																class="btn btn-light btn-md"
 																href="https://www.kwuanburks.com"
+															>
+																Go To Project
+															</a>
+														</div>
+													</div>
+
+													<div class="col-md-6">
+														<div class="feature">
+															<h2 class="heading1">
+																Tournament Gaming Website
+															</h2>
+															<img src={squad} alt="esquadup website gif"/>
+															<br />
+															<a
+																class="btn btn-light btn-md"
+																href="https://www.esquadup.com"
 															>
 																Go To Project
 															</a>
